@@ -1,6 +1,6 @@
-# 💫 About Me:
+# 🧿 About Me 🧿:
 
-# 🚀 Nilesh Das
+# 🐺 Nilesh Das 🐺
 **Aspiring Full Stack Developer | Java & Spring Boot | Open to new Technology | DSA **
 
 > *Turning caffeine into code and complex problems into scalable solutions.*
