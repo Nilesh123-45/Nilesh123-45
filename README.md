@@ -1,8 +1,8 @@
 #  About Me :
 
-# Sheer Fighter :
+# Sheer Fighter #
 
-# Strive for a better version :
+# Strive for a better version #
 
 
 #  Nilesh Das 🐺
