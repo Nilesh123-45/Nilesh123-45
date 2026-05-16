@@ -1,7 +1,12 @@
-# 🧿 About Me :
+#  About Me :
+
+# Sheer Fighter :
+
+# Strive for a better version :
+
 
 #  Nilesh Das 🐺
-**Aspiring Full Stack Developer | Java & Spring Boot | Open to new Technology | DSA **
+** Java Backend Developer |  Full Stack Developer | Java & Spring Boot | Open to new Technology | DSA **
 
 > *while(alive){ learn(); urnlearn(); relearn();}*
 
