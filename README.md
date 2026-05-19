@@ -84,7 +84,6 @@ I am a software developer specializing in building robust backends and interacti
 * Implemented an automated email notification system for financial summaries.
 
 **📅 Employee Leave Management System**
-* Developed during my internship at **Seeree Private Limited**.
 * Created a responsive MERN stack application (Node.js, React, MongoDB) to digitize HR workflows.
 
 **🏥 Hospital Management System**
