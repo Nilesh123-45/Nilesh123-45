@@ -12,7 +12,7 @@
 
 <br>
 
-<img src="assets/01-about.svg" alt="01 / ABOUT"/>
+![](https://img.shields.io/badge/01-ABOUT-76B900?style=for-the-badge&labelColor=000000)
 
 I build backends that hold up under load — designing for failure with
 circuit breakers and rate limiters, tuning caching layers instead of
@@ -22,7 +22,7 @@ experiments, and the internals I've actually gone through.
 
 <br>
 
-<img src="assets/02-stack.svg" alt="02 / STACK"/>
+![](https://img.shields.io/badge/02-STACK-76B900?style=for-the-badge&labelColor=000000)
 
 ```
 LANGUAGES        JAVA 21 · JAVA 17 · JAVA 8 · C · JAVASCRIPT
@@ -41,8 +41,6 @@ DEPLOY           VERCEL · NETLIFY · RENDER
 IDEs             INTELLIJ IDEA · ECLIPSE · VS CODE
 TOOLING          MAVEN · GIT · GITHUB · POSTMAN · JUNIT · LOG4J
 LEARNING         LABEX
-OTHER            ADOBE LIGHTROOM · EPIC GAMES · UNREAL ENGINE
-                 AMD · NVIDIA
 ```
 
 <div align="center">
@@ -80,7 +78,7 @@ OTHER            ADOBE LIGHTROOM · EPIC GAMES · UNREAL ENGINE
 
 <br>
 
-<img src="assets/03-projects.svg" alt="03 / PROJECTS"/>
+![](https://img.shields.io/badge/03-PROJECTS-76B900?style=for-the-badge&labelColor=000000)
 
 **SNAPOS — DIGITAL BUSINESS CARD PLATFORM**
 `REACT` `SPRING BOOT`
@@ -99,26 +97,6 @@ OTHER            ADOBE LIGHTROOM · EPIC GAMES · UNREAL ENGINE
 * Designed a REST API with centralized error handling (`@RestControllerAdvice`, custom exception hierarchy) instead of scattered try-catch, so every failure mode returns a consistent, client-usable response.
 * Containerized with Docker and shipped a declarative Jenkins pipeline for automated builds — resolved cross-platform build issues along the way (Windows/WSL2 case-sensitivity gotchas).
 
-**BILLING & INVENTORY POS SYSTEM**
-`SPRING BOOT` `JAVA 21` `AWS S3` `RAZORPAY`
-* Built a high-concurrency RESTful application handling billing and inventory in real time.
-* Integrated AWS S3 for digital asset storage and Razorpay for secure payments.
-* Cut server load by ~40% through cloud-native optimizations.
-
-**SMART PERSONAL EXPENSE TRACKER**
-`SPRING BOOT` `SPRING DATA JPA` `REACT`
-* Full-stack app to track, categorize, and analyze monthly expenses.
-* Backend built with Spring Boot + Spring Data JPA, dependencies managed via Maven.
-* React + Context API frontend for efficient state management; automated email notifications for financial summaries.
-
-**EMPLOYEE LEAVE MANAGEMENT SYSTEM**
-`NODE.JS` `REACT` `MONGODB`
-* Responsive MERN stack application built to digitize HR leave workflows end to end.
-
-**HOSPITAL MANAGEMENT SYSTEM**
-`CORE JAVA` `JDBC`
-* Console-based healthcare application built on raw fundamentals — strictly Core Java and JDBC for database connectivity, no framework scaffolding.
-
 **EVENT PIPELINE — KAFKA, DOCKER**
 `APACHE KAFKA` `DOCKER`
 * Stood up a local multi-broker Kafka cluster to work through partitioning strategy, sticky partitioner behavior, and keyed message routing for ordering guarantees.
@@ -126,14 +104,14 @@ OTHER            ADOBE LIGHTROOM · EPIC GAMES · UNREAL ENGINE
 
 <br>
 
-<img src="assets/04-stats.svg" alt="04 / STATS"/>
+![](https://img.shields.io/badge/04-STATS-76B900?style=for-the-badge&labelColor=000000)
 
 `SMART INDIA HACKATHON 2024` — Participant
 `LEETCODE / HACKERRANK` — 1000+ solution views
 
 <br>
 
-<img src="assets/05-analytics.svg" alt="05 / ANALYTICS"/>
+![](https://img.shields.io/badge/05-ANALYTICS-76B900?style=for-the-badge&labelColor=000000)
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Nilesh123-45&theme=transparent&hide_border=true&title_color=76B900&text_color=888888&icon_color=76B900" height="165" alt="GitHub Stats" />
