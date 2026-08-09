@@ -86,21 +86,29 @@ LEARNING         LABEX
 * Built a polished interaction layer from scratch — animated PIN entry, expanding-circle button transitions, scroll-triggered reveals — no UI library shortcuts.
 * Designed the auth/recovery flow to avoid the "locked out forever" trap common in PIN-based systems.
 
+  <br>
+
 <img src="assets/02-caching.svg" alt="Caching Layer"/>
 `SPRING BOOT` `REDIS` `MYSQL`
 * Built a caching layer over a CRUD service, choosing cache-aside vs. write-through per endpoint based on read/write ratio and staleness tolerance.
 * Used SpEL-based dynamic cache keys and `@Transactional`-aware eviction to keep cache and DB consistent on writes and deletes.
 * Backed by Upstash-hosted Redis, cutting redundant DB hits on hot read paths.
 
+  <br>
+
 <img src="assets/03-booking.svg" alt="Booking API"/>
 `SPRING BOOT` `DOCKER` `JENKINS`
 * Designed a REST API with centralized error handling (`@RestControllerAdvice`, custom exception hierarchy) instead of scattered try-catch, so every failure mode returns a consistent, client-usable response.
 * Containerized with Docker and shipped a declarative Jenkins pipeline for automated builds — resolved cross-platform build issues along the way (Windows/WSL2 case-sensitivity gotchas).
 
+  <br>
+
 <img src="assets/04-kafka.svg" alt="Event Pipeline"/>
 `APACHE KAFKA` `DOCKER`
 * Stood up a local multi-broker Kafka cluster to work through partitioning strategy, sticky partitioner behavior, and keyed message routing for ordering guarantees.
 * Modeled consumer group semantics hands-on — including groupless consumers behaving as pub-sub — to reason correctly about scaling consumers without losing message order.
+
+  <br>
 
 <img src="assets/05-pos.svg" alt="Billing & Inventory POS"/>
 `SPRING BOOT` `JAVA 21` `AWS S3` `RAZORPAY`
@@ -108,15 +116,21 @@ LEARNING         LABEX
 * Integrated AWS S3 for digital asset storage and Razorpay for secure payments.
 * Cut server load by ~40% through cloud-native optimizations.
 
+  <br>
+
 <img src="assets/06-expense.svg" alt="Expense Tracker"/>
 `SPRING BOOT` `SPRING DATA JPA` `REACT`
 * Full-stack app to track, categorize, and analyze monthly expenses.
 * Backend built with Spring Boot + Spring Data JPA, dependencies managed via Maven.
 * React + Context API frontend for efficient state management; automated email notifications for financial summaries.
 
+  <br>
+
 <img src="assets/07-leave.svg" alt="Leave Management"/>
 `NODE.JS` `REACT` `MONGODB`
 * Responsive MERN stack application built to digitize HR leave workflows end to end.
+
+  <br>
 
 <img src="assets/08-hospital.svg" alt="Hospital Management"/>
 `CORE JAVA` `JDBC`
