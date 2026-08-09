@@ -80,6 +80,8 @@ LEARNING         LABEX
 <br>
 
 ![](https://img.shields.io/badge/03-PROJECTS-76B900?style=for-the-badge&labelColor=000000)
+<br>
+<br>
 
 <img src="assets/01-snapos.svg" alt="Snapos"/>
 * Full-stack app letting users create custom-URL digital profiles with QR-code sharing, PIN-protected access, and self-serve account recovery.
