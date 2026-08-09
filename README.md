@@ -84,6 +84,7 @@ LEARNING         LABEX
 <br>
 
 <img src="assets/01-snapos.svg" alt="Snapos"/>
+
 * Full-stack app letting users create custom-URL digital profiles with QR-code sharing, PIN-protected access, and self-serve account recovery.
 * Built a polished interaction layer from scratch — animated PIN entry, expanding-circle button transitions, scroll-triggered reveals — no UI library shortcuts.
 * Designed the auth/recovery flow to avoid the "locked out forever" trap common in PIN-based systems.
