@@ -80,45 +80,45 @@ LEARNING         LABEX
 
 ![](https://img.shields.io/badge/03-PROJECTS-76B900?style=for-the-badge&labelColor=000000)
 
-**SNAPOS — DIGITAL BUSINESS CARD PLATFORM**
+<img src="assets/01-snapos.svg" alt="Snapos"/>
 `REACT` `SPRING BOOT`
 * Full-stack app letting users create custom-URL digital profiles with QR-code sharing, PIN-protected access, and self-serve account recovery.
 * Built a polished interaction layer from scratch — animated PIN entry, expanding-circle button transitions, scroll-triggered reveals — no UI library shortcuts.
 * Designed the auth/recovery flow to avoid the "locked out forever" trap common in PIN-based systems.
 
-**CACHING LAYER — SPRING BOOT + REDIS**
+<img src="assets/02-caching.svg" alt="Caching Layer"/>
 `SPRING BOOT` `REDIS` `MYSQL`
 * Built a caching layer over a CRUD service, choosing cache-aside vs. write-through per endpoint based on read/write ratio and staleness tolerance.
 * Used SpEL-based dynamic cache keys and `@Transactional`-aware eviction to keep cache and DB consistent on writes and deletes.
 * Backed by Upstash-hosted Redis, cutting redundant DB hits on hot read paths.
 
-**BOOKING API — IRCTC-STYLE, WITH CI/CD**
+<img src="assets/03-booking.svg" alt="Booking API"/>
 `SPRING BOOT` `DOCKER` `JENKINS`
 * Designed a REST API with centralized error handling (`@RestControllerAdvice`, custom exception hierarchy) instead of scattered try-catch, so every failure mode returns a consistent, client-usable response.
 * Containerized with Docker and shipped a declarative Jenkins pipeline for automated builds — resolved cross-platform build issues along the way (Windows/WSL2 case-sensitivity gotchas).
 
-**EVENT PIPELINE — KAFKA, DOCKER**
+<img src="assets/04-kafka.svg" alt="Event Pipeline"/>
 `APACHE KAFKA` `DOCKER`
 * Stood up a local multi-broker Kafka cluster to work through partitioning strategy, sticky partitioner behavior, and keyed message routing for ordering guarantees.
 * Modeled consumer group semantics hands-on — including groupless consumers behaving as pub-sub — to reason correctly about scaling consumers without losing message order.
 
-**BILLING & INVENTORY POS SYSTEM**
+<img src="assets/05-pos.svg" alt="Billing & Inventory POS"/>
 `SPRING BOOT` `JAVA 21` `AWS S3` `RAZORPAY`
 * Built a high-concurrency RESTful application handling billing and inventory in real time.
 * Integrated AWS S3 for digital asset storage and Razorpay for secure payments.
 * Cut server load by ~40% through cloud-native optimizations.
 
-**SMART PERSONAL EXPENSE TRACKER**
+<img src="assets/06-expense.svg" alt="Expense Tracker"/>
 `SPRING BOOT` `SPRING DATA JPA` `REACT`
 * Full-stack app to track, categorize, and analyze monthly expenses.
 * Backend built with Spring Boot + Spring Data JPA, dependencies managed via Maven.
 * React + Context API frontend for efficient state management; automated email notifications for financial summaries.
 
-**EMPLOYEE LEAVE MANAGEMENT SYSTEM**
+<img src="assets/07-leave.svg" alt="Leave Management"/>
 `NODE.JS` `REACT` `MONGODB`
 * Responsive MERN stack application built to digitize HR leave workflows end to end.
 
-**HOSPITAL MANAGEMENT SYSTEM**
+<img src="assets/08-hospital.svg" alt="Hospital Management"/>
 `CORE JAVA` `JDBC`
 * Console-based healthcare application built on raw fundamentals — strictly Core Java and JDBC for database connectivity, no framework scaffolding.
 
@@ -133,18 +133,16 @@ LEARNING         LABEX
 ![](https://img.shields.io/badge/05-ANALYTICS-76B900?style=for-the-badge&labelColor=000000)
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nilesh123-45&theme=transparent&hide_border=true&title_color=76B900&text_color=888888&icon_color=76B900" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nilesh123-45&theme=transparent&hide_border=true&title_color=76B900&text_color=888888&layout=compact" height="165" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=Nilesh123-45&theme=transparent&hide_border=true&title_color=76B900&text_color=888888&icon_color=76B900" height="165" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Nilesh123-45&theme=transparent&hide_border=true&title_color=76B900&text_color=888888&layout=compact" height="165" alt="Top Languages" />
   <br><br>
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Nilesh123-45&theme=transparent&hide_border=true&ring=76B900&fire=76B900&currStreakNum=76B900&sideNums=888888&sideLabels=888888&dates=888888" height="165" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=Nilesh123-45&hide_border=true&background=00000000&ring=76B900&fire=76B900&currStreakNum=76B900&sideNums=888888&sideLabels=888888&dates=888888" height="165" alt="GitHub Streak" />
 </div>
-
 <br>
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=6&section=footer" width="100%"/>
-
 <div align="center">
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=Nilesh123-45&icon=0&color=8" alt="Profile Views">
+  <a href="https://github.com/antonkomarev/github-profile-views-counter">
+    <img src="https://komarev.com/ghpvc/?username=Nilesh123-45&style=for-the-badge&color=76B900&label=PROFILE+VIEWS" alt="Profile Views">
   </a>
 </div>
+ 
