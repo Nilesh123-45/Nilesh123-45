@@ -6,7 +6,7 @@
 
 <div align="center">
 
-`PORTFOLIO` → [nilesh-das.vercel.app](https://nilesh-das.vercel.app/)&nbsp;&nbsp;|&nbsp;&nbsp;`LINKEDIN` → [nileshdasneel](https://www.linkedin.com/in/nileshdasneel)&nbsp;&nbsp;|&nbsp;&nbsp;`MAIL` → [dasnilesh832@gmail.com](mailto:dasnilesh832@gmail.com)
+`PORTFOLIO` → [nilesh-das.vercel.app](https://nilesh-das.vercel.app/)&nbsp;&nbsp;|&nbsp;&nbsp;`LINKEDIN` → [nileshdasneil](https://www.linkedin.com/in/nileshdasneil)&nbsp;&nbsp;|&nbsp;&nbsp;`MAIL` → [nileshdas.work@gmail.com](mailto:nileshdas.work@gmail.com)
 
 </div>
 
@@ -102,11 +102,30 @@ LEARNING         LABEX
 * Stood up a local multi-broker Kafka cluster to work through partitioning strategy, sticky partitioner behavior, and keyed message routing for ordering guarantees.
 * Modeled consumer group semantics hands-on — including groupless consumers behaving as pub-sub — to reason correctly about scaling consumers without losing message order.
 
+**BILLING & INVENTORY POS SYSTEM**
+`SPRING BOOT` `JAVA 21` `AWS S3` `RAZORPAY`
+* Built a high-concurrency RESTful application handling billing and inventory in real time.
+* Integrated AWS S3 for digital asset storage and Razorpay for secure payments.
+* Cut server load by ~40% through cloud-native optimizations.
+
+**SMART PERSONAL EXPENSE TRACKER**
+`SPRING BOOT` `SPRING DATA JPA` `REACT`
+* Full-stack app to track, categorize, and analyze monthly expenses.
+* Backend built with Spring Boot + Spring Data JPA, dependencies managed via Maven.
+* React + Context API frontend for efficient state management; automated email notifications for financial summaries.
+
+**EMPLOYEE LEAVE MANAGEMENT SYSTEM**
+`NODE.JS` `REACT` `MONGODB`
+* Responsive MERN stack application built to digitize HR leave workflows end to end.
+
+**HOSPITAL MANAGEMENT SYSTEM**
+`CORE JAVA` `JDBC`
+* Console-based healthcare application built on raw fundamentals — strictly Core Java and JDBC for database connectivity, no framework scaffolding.
+
 <br>
 
 ![](https://img.shields.io/badge/04-STATS-76B900?style=for-the-badge&labelColor=000000)
 
-`SMART INDIA HACKATHON 2024` — Participant
 `LEETCODE / HACKERRANK` — 1000+ solution views
 
 <br>
