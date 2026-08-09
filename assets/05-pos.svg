@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="66" viewBox="0 0 780 66">
+  <rect width="780" height="66" fill="#000000"/>
+  <rect x="0" y="0" width="4" height="66" fill="#76B900"/>
+  <text x="20" y="26" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="bold" fill="#76B900">BILLING & INVENTORY — POS SYSTEM</text>
+  <text x="20" y="48" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#8fbf3f">SPRING BOOT · JAVA 21 · AWS S3 · RAZORPAY</text>
+</svg>
